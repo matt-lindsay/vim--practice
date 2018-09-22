@@ -4,6 +4,8 @@
   "description": "A repo for learning to use Vim, properly.",
   "main": "app.js",
   "scripts": {
+    "prestart": "npm install",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
